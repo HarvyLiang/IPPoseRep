@@ -130,7 +130,16 @@ def _review_svg_sources(
         prefix=".template-preview-",
         dir=workspace,
     ) as temporary:
-        review_dir = Path(temporary)
+        review_root = Path(temporary)
+        review_dir = review_root / "templates"
+        review_dir.mkdir()
+        spec_path = _roster_spec(svg_files[0].parent)
+        if spec_path is not None:
+            shutil.copy2(spec_path, review_dir / "design_spec.md")
+        for asset_dir_name in ("images", "icons"):
+            asset_source = workspace / asset_dir_name
+            if asset_source.is_dir():
+                shutil.copytree(asset_source, review_root / asset_dir_name)
         review_files: list[Path] = []
         shortened = 0
         for source in svg_files:

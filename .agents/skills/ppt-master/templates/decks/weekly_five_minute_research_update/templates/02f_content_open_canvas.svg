@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
+  data-pptx-master="ntu-weekly-master" data-pptx-master-name="NTU Weekly Research"
+  data-pptx-layout="weekly-open-canvas" data-pptx-layout-name="Weekly Update — Open Canvas">
+  <rect id="master-background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="master-identity-rail" x="0" y="0" width="18" height="720" fill="#D71440" data-pptx-layer="master" data-pptx-editable="false"/>
+  <image id="master-logo" href="../images/ntu_master_logo.png" x="1030" y="24" width="200" height="72" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="master-footer-band" x="18" y="690" width="1262" height="30" fill="#181C62" data-pptx-layer="master" data-pptx-editable="false"/>
+  <text id="master-footer-label" x="50" y="711" fill="#FFFFFF" font-family="Arial" font-size="13" data-pptx-layer="master" data-pptx-editable="false">EE6008 · HUMAN POSE ANALYTICS</text>
+
+  <rect id="layout-title-rule" x="54" y="105" width="160" height="5" fill="#D71440" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-open-canvas-frame" x="54" y="137" width="1166" height="501" rx="10" fill="#FFFFFF" stroke="#C8C8C8" stroke-width="2" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="open-canvas-title-slot" data-pptx-placeholder="title" data-pptx-bounds="54 44 860 58">
+    <text data-pptx-carrier="true" x="54" y="86" fill="#20243A" font-family="Arial" font-size="34" font-weight="bold">Open Canvas</text>
+  </g>
+  <g id="open-canvas-source-slot" data-pptx-placeholder="footer" data-pptx-idx="18" data-pptx-bounds="520 695 610 18">
+    <text data-pptx-carrier="true" x="520" y="710" fill="#FFFFFF" font-family="Arial" font-size="12" text-anchor="end">{{SOURCE}}</text>
+  </g>
+  <g id="open-canvas-page-slot" data-pptx-placeholder="slide-number" data-pptx-idx="19" data-pptx-bounds="1190 695 42 18">
+    <text data-pptx-carrier="true" x="1210" y="710" fill="#FFFFFF" font-family="Arial" font-size="12" text-anchor="middle">{{PAGE_NUM}}</text>
+  </g>
+</svg>

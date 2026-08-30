@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
+  data-pptx-master="ntu-weekly-master" data-pptx-master-name="NTU Weekly Research"
+  data-pptx-layout="weekly-multi-image-story" data-pptx-layout-name="Weekly Update — Multi-Image Story">
+  <rect id="master-background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="master-identity-rail" x="0" y="0" width="18" height="720" fill="#D71440" data-pptx-layer="master" data-pptx-editable="false"/>
+  <image id="master-logo" href="../images/ntu_master_logo.png" x="1030" y="24" width="200" height="72" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="master-footer-band" x="18" y="690" width="1262" height="30" fill="#181C62" data-pptx-layer="master" data-pptx-editable="false"/>
+  <text id="master-footer-label" x="50" y="711" fill="#FFFFFF" font-family="Arial" font-size="13" data-pptx-layer="master" data-pptx-editable="false">EE6008 · HUMAN POSE ANALYTICS</text>
+
+  <rect id="layout-title-rule" x="54" y="105" width="160" height="5" fill="#D71440" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-multi-image-guide" x="994" y="86" fill="#5E6478" font-family="Arial" font-size="13" font-weight="bold" text-anchor="end" data-pptx-layer="layout" data-pptx-editable="false">USE 2–4 IMAGES</text>
+  <rect id="layout-image-card-1" x="54" y="137" width="566" height="232" rx="8" fill="#FFFFFF" stroke="#C8C8C8" stroke-width="2" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-image-caption-1" x="54" y="331" width="566" height="38" fill="#EEF1FA" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-image-card-2" x="654" y="137" width="566" height="232" rx="8" fill="#FFFFFF" stroke="#C8C8C8" stroke-width="2" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-image-caption-2" x="654" y="331" width="566" height="38" fill="#EEF1FA" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-image-card-3" x="54" y="387" width="566" height="232" rx="8" fill="#FFFFFF" stroke="#C8C8C8" stroke-width="2" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-image-caption-3" x="54" y="581" width="566" height="38" fill="#EEF1FA" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-image-card-4" x="654" y="387" width="566" height="232" rx="8" fill="#FFFFFF" stroke="#C8C8C8" stroke-width="2" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-image-caption-4" x="654" y="581" width="566" height="38" fill="#EEF1FA" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="multi-image-title-slot" data-pptx-placeholder="title" data-pptx-bounds="54 44 860 58">
+    <text data-pptx-carrier="true" x="54" y="86" fill="#20243A" font-family="Arial" font-size="34" font-weight="bold">Multi-Image Story</text>
+  </g>
+  <g id="multi-image-picture-1-slot" data-pptx-placeholder="picture" data-pptx-idx="1" data-pptx-bounds="58 141 558 186">
+    <image data-pptx-carrier="true" href="../images/eee_building_exterior_full_bleed.jpg" x="58" y="141" width="558" height="186" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+  <g id="multi-image-picture-2-slot" data-pptx-placeholder="picture" data-pptx-idx="2" data-pptx-bounds="658 141 558 186">
+    <image data-pptx-carrier="true" href="../images/the_hive_ntu_exterior_cover_wide.jpg" x="658" y="141" width="558" height="186" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+  <g id="multi-image-picture-3-slot" data-pptx-placeholder="picture" data-pptx-idx="3" data-pptx-bounds="58 391 558 186">
+    <image data-pptx-carrier="true" href="../images/gaia_nbs_official.jpg" x="58" y="391" width="558" height="186" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+  <g id="multi-image-picture-4-slot" data-pptx-placeholder="picture" data-pptx-idx="4" data-pptx-bounds="658 391 558 186">
+    <image data-pptx-carrier="true" href="../images/eee_official_collage.png" x="658" y="391" width="558" height="186" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+  <g id="multi-image-caption-1-slot" data-pptx-placeholder="object" data-pptx-idx="5" data-pptx-bounds="72 336 530 26">
+    <text data-pptx-carrier="true" x="72" y="356" fill="#20243A" font-family="Arial" font-size="15">{{CAPTION_1}}</text>
+  </g>
+  <g id="multi-image-caption-2-slot" data-pptx-placeholder="object" data-pptx-idx="6" data-pptx-bounds="672 336 530 26">
+    <text data-pptx-carrier="true" x="672" y="356" fill="#20243A" font-family="Arial" font-size="15">{{CAPTION_2}}</text>
+  </g>
+  <g id="multi-image-caption-3-slot" data-pptx-placeholder="object" data-pptx-idx="7" data-pptx-bounds="72 586 530 26">
+    <text data-pptx-carrier="true" x="72" y="606" fill="#20243A" font-family="Arial" font-size="15">{{CAPTION_3}}</text>
+  </g>
+  <g id="multi-image-caption-4-slot" data-pptx-placeholder="object" data-pptx-idx="8" data-pptx-bounds="672 586 530 26">
+    <text data-pptx-carrier="true" x="672" y="606" fill="#20243A" font-family="Arial" font-size="15">{{CAPTION_4}}</text>
+  </g>
+  <g id="multi-image-source-slot" data-pptx-placeholder="footer" data-pptx-idx="18" data-pptx-bounds="520 695 610 18">
+    <text data-pptx-carrier="true" x="520" y="710" fill="#FFFFFF" font-family="Arial" font-size="12" text-anchor="end">{{SOURCE}}</text>
+  </g>
+  <g id="multi-image-page-slot" data-pptx-placeholder="slide-number" data-pptx-idx="19" data-pptx-bounds="1190 695 42 18">
+    <text data-pptx-carrier="true" x="1210" y="710" fill="#FFFFFF" font-family="Arial" font-size="12" text-anchor="middle">{{PAGE_NUM}}</text>
+  </g>
+</svg>

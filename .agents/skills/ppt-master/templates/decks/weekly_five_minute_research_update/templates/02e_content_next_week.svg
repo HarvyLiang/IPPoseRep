@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
+  data-pptx-master="ntu-weekly-master" data-pptx-master-name="NTU Weekly Research"
+  data-pptx-layout="weekly-next-week" data-pptx-layout-name="Weekly Update — Next-Week Commitments">
+  <rect id="master-background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="master-identity-rail" x="0" y="0" width="18" height="720" fill="#D71440" data-pptx-layer="master" data-pptx-editable="false"/>
+  <image id="master-logo" href="../images/ntu_master_logo.png" x="1030" y="24" width="200" height="72" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="master-footer-band" x="18" y="690" width="1262" height="30" fill="#181C62" data-pptx-layer="master" data-pptx-editable="false"/>
+  <text id="master-footer-label" x="50" y="711" fill="#FFFFFF" font-family="Arial" font-size="13" data-pptx-layer="master" data-pptx-editable="false">EE6008 · HUMAN POSE ANALYTICS</text>
+
+  <rect id="layout-title-rule" x="54" y="105" width="160" height="5" fill="#D71440" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <line id="layout-action-line" x1="106" y1="235" x2="106" y2="558" stroke="#C8C8C8" stroke-width="5" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <circle id="layout-action-node-1" cx="106" cy="235" r="20" fill="#D71440" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <circle id="layout-action-node-2" cx="106" cy="397" r="20" fill="#181C62" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <circle id="layout-action-node-3" cx="106" cy="558" r="20" fill="#D71440" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-action-field-1" x="154" y="170" width="700" height="130" rx="12" fill="#FCE9EE" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-action-field-2" x="154" y="332" width="700" height="130" rx="12" fill="#EEF1FA" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-action-field-3" x="154" y="493" width="700" height="130" rx="12" fill="#FCE9EE" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-owner-field" x="884" y="170" width="336" height="453" rx="12" fill="#181C62" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-action-number-1" x="106" y="242" fill="#FFFFFF" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" data-pptx-layer="layout" data-pptx-editable="false">1</text>
+  <text id="layout-action-number-2" x="106" y="404" fill="#FFFFFF" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" data-pptx-layer="layout" data-pptx-editable="false">2</text>
+  <text id="layout-action-number-3" x="106" y="565" fill="#FFFFFF" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" data-pptx-layer="layout" data-pptx-editable="false">3</text>
+  <text id="layout-action-label-1" x="184" y="201" fill="#D71440" font-family="Arial" font-size="13" font-weight="bold" data-pptx-layer="layout" data-pptx-editable="false">DELIVERABLE 1 · BUILD</text>
+  <text id="layout-action-label-2" x="184" y="363" fill="#181C62" font-family="Arial" font-size="13" font-weight="bold" data-pptx-layer="layout" data-pptx-editable="false">DELIVERABLE 2 · VALIDATE</text>
+  <text id="layout-action-label-3" x="184" y="524" fill="#D71440" font-family="Arial" font-size="13" font-weight="bold" data-pptx-layer="layout" data-pptx-editable="false">DELIVERABLE 3 · DOCUMENT</text>
+  <text id="layout-owner-label" x="914" y="211" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" data-pptx-layer="layout" data-pptx-editable="false">OWNER · DUE DATE · SUCCESS CHECK</text>
+
+  <g id="next-title-slot" data-pptx-placeholder="title" data-pptx-bounds="54 44 860 58">
+    <text data-pptx-carrier="true" x="54" y="86" fill="#20243A" font-family="Arial" font-size="34" font-weight="bold">Next-Week Commitments</text>
+  </g>
+  <g id="next-action-1-slot" data-pptx-placeholder="body" data-pptx-idx="1" data-pptx-bounds="184 216 640 62">
+    <text data-pptx-carrier="true" x="184" y="246" fill="#20243A" font-family="Arial" font-size="21" font-weight="bold"><tspan x="184" dy="0">{{NEXT_ACTION_1}}</tspan><tspan x="184" dy="25" fill="#5E6478" font-size="14" font-weight="normal">Output: code, dataset, or runnable module.</tspan></text>
+  </g>
+  <g id="next-action-2-slot" data-pptx-placeholder="body" data-pptx-idx="2" data-pptx-bounds="184 378 640 62">
+    <text data-pptx-carrier="true" x="184" y="408" fill="#20243A" font-family="Arial" font-size="21" font-weight="bold"><tspan x="184" dy="0">{{NEXT_ACTION_2}}</tspan><tspan x="184" dy="25" fill="#5E6478" font-size="14" font-weight="normal">Output: metric table, control, or ablation result.</tspan></text>
+  </g>
+  <g id="next-action-3-slot" data-pptx-placeholder="body" data-pptx-idx="3" data-pptx-bounds="184 539 640 62">
+    <text data-pptx-carrier="true" x="184" y="569" fill="#20243A" font-family="Arial" font-size="21" font-weight="bold"><tspan x="184" dy="0">{{NEXT_ACTION_3}}</tspan><tspan x="184" dy="25" fill="#5E6478" font-size="14" font-weight="normal">Output: updated figure, notes, or report section.</tspan></text>
+  </g>
+  <g id="next-owner-slot" data-pptx-placeholder="body" data-pptx-idx="4" data-pptx-bounds="914 234 276 344">
+    <text data-pptx-carrier="true" x="914" y="268" fill="#FFFFFF" font-family="Arial" font-size="21"><tspan x="914" dy="0">{{OWNER_AND_DEADLINE}}</tspan><tspan x="914" dy="38" fill="#C8C8C8" font-size="14">Owner: …</tspan><tspan x="914" dy="27" fill="#C8C8C8" font-size="14">Due: …</tspan><tspan x="914" dy="27" fill="#C8C8C8" font-size="14">Success check: observable output</tspan><tspan x="914" dy="27" fill="#C8C8C8" font-size="14">or agreed metric threshold.</tspan></text>
+  </g>
+  <g id="next-page-slot" data-pptx-placeholder="slide-number" data-pptx-idx="19" data-pptx-bounds="1190 695 42 18">
+    <text data-pptx-carrier="true" x="1210" y="710" fill="#FFFFFF" font-family="Arial" font-size="12" text-anchor="middle">{{PAGE_NUM}}</text>
+  </g>
+</svg>

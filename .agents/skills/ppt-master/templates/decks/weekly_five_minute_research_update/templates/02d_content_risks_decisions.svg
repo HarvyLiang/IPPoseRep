@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
+  data-pptx-master="ntu-weekly-master" data-pptx-master-name="NTU Weekly Research"
+  data-pptx-layout="weekly-risks-decisions" data-pptx-layout-name="Weekly Update — Risks &amp; Decisions">
+  <rect id="master-background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="master-identity-rail" x="0" y="0" width="18" height="720" fill="#D71440" data-pptx-layer="master" data-pptx-editable="false"/>
+  <image id="master-logo" href="../images/ntu_master_logo.png" x="1030" y="24" width="200" height="72" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="master-footer-band" x="18" y="690" width="1262" height="30" fill="#181C62" data-pptx-layer="master" data-pptx-editable="false"/>
+  <text id="master-footer-label" x="50" y="711" fill="#FFFFFF" font-family="Arial" font-size="13" data-pptx-layer="master" data-pptx-editable="false">EE6008 · HUMAN POSE ANALYTICS</text>
+
+  <rect id="layout-title-rule" x="54" y="105" width="160" height="5" fill="#D71440" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-risk-field" x="54" y="150" width="555" height="216" rx="12" fill="#FCE9EE" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-impact-field" x="635" y="150" width="585" height="216" rx="12" fill="#FFFFFF" stroke="#D71440" stroke-width="2" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-mitigation-field" x="54" y="390" width="555" height="248" rx="12" fill="#EEF1FA" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-decision-field" x="635" y="390" width="585" height="248" rx="12" fill="#181C62" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-risk-label" x="54" y="150" width="10" height="216" fill="#D71440" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-decision-label" x="635" y="390" width="10" height="248" fill="#D71440" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-risk-heading" x="84" y="184" fill="#D71440" font-family="Arial" font-size="14" font-weight="bold" data-pptx-layer="layout" data-pptx-editable="false">RISK / BLOCKER</text>
+  <text id="layout-impact-heading" x="665" y="184" fill="#D71440" font-family="Arial" font-size="14" font-weight="bold" data-pptx-layer="layout" data-pptx-editable="false">IMPACT ON SCOPE, EVIDENCE, OR TIMELINE</text>
+  <text id="layout-mitigation-heading" x="84" y="424" fill="#181C62" font-family="Arial" font-size="14" font-weight="bold" data-pptx-layer="layout" data-pptx-editable="false">MITIGATION / OWNER / CHECK DATE</text>
+  <text id="layout-decision-heading" x="665" y="424" fill="#FFFFFF" font-family="Arial" font-size="14" font-weight="bold" data-pptx-layer="layout" data-pptx-editable="false">DECISION OR SUPPORT NEEDED</text>
+
+  <g id="risk-title-slot" data-pptx-placeholder="title" data-pptx-bounds="54 44 860 58">
+    <text data-pptx-carrier="true" x="54" y="86" fill="#20243A" font-family="Arial" font-size="34" font-weight="bold">Risks &amp; Decisions</text>
+  </g>
+  <g id="risk-main-slot" data-pptx-placeholder="body" data-pptx-idx="1" data-pptx-bounds="84 202 495 128">
+    <text data-pptx-carrier="true" x="84" y="236" fill="#D71440" font-family="Arial" font-size="21" font-weight="bold"><tspan x="84" dy="0">{{RISKS}}</tspan><tspan x="84" dy="31" fill="#5E6478" font-size="14" font-weight="normal">Describe the failure mode, trigger, and evidence.</tspan></text>
+  </g>
+  <g id="risk-impact-slot" data-pptx-placeholder="body" data-pptx-idx="2" data-pptx-bounds="665 202 525 128">
+    <text data-pptx-carrier="true" x="665" y="236" fill="#20243A" font-family="Arial" font-size="21"><tspan x="665" dy="0">{{IMPACT}}</tspan><tspan x="665" dy="31" fill="#5E6478" font-size="14">Quantify delay, compute cost, metric risk, or lost scope.</tspan></text>
+  </g>
+  <g id="risk-mitigation-slot" data-pptx-placeholder="body" data-pptx-idx="3" data-pptx-bounds="84 442 495 160">
+    <text data-pptx-carrier="true" x="84" y="476" fill="#181C62" font-family="Arial" font-size="21"><tspan x="84" dy="0">{{MITIGATION}}</tspan><tspan x="84" dy="31" fill="#5E6478" font-size="14">Owner: …   |   Check date: …   |   Fallback: …</tspan></text>
+  </g>
+  <g id="risk-decision-slot" data-pptx-placeholder="body" data-pptx-idx="4" data-pptx-bounds="665 442 525 160">
+    <text data-pptx-carrier="true" x="665" y="476" fill="#FFFFFF" font-family="Arial" font-size="21" font-weight="bold"><tspan x="665" dy="0">{{DECISION_NEEDED}}</tspan><tspan x="665" dy="31" fill="#C8C8C8" font-size="14" font-weight="normal">State the choice, approver, and latest useful date.</tspan></text>
+  </g>
+  <g id="risk-page-slot" data-pptx-placeholder="slide-number" data-pptx-idx="19" data-pptx-bounds="1190 695 42 18">
+    <text data-pptx-carrier="true" x="1210" y="710" fill="#FFFFFF" font-family="Arial" font-size="12" text-anchor="middle">{{PAGE_NUM}}</text>
+  </g>
+</svg>

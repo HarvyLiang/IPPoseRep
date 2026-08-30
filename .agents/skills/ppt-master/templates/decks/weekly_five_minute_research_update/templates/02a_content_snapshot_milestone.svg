@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
+  data-pptx-master="ntu-weekly-master" data-pptx-master-name="NTU Weekly Research"
+  data-pptx-layout="weekly-snapshot" data-pptx-layout-name="Weekly Update — Snapshot &amp; Milestone">
+  <rect id="master-background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="master-identity-rail" x="0" y="0" width="18" height="720" fill="#D71440" data-pptx-layer="master" data-pptx-editable="false"/>
+  <image id="master-logo" href="../images/ntu_master_logo.png" x="1030" y="24" width="200" height="72" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="master-footer-band" x="18" y="690" width="1262" height="30" fill="#181C62" data-pptx-layer="master" data-pptx-editable="false"/>
+  <text id="master-footer-label" x="50" y="711" fill="#FFFFFF" font-family="Arial" font-size="13" data-pptx-layer="master" data-pptx-editable="false">EE6008 · HUMAN POSE ANALYTICS</text>
+
+  <rect id="layout-title-rule" x="54" y="105" width="160" height="5" fill="#D71440" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-key-message-field" x="54" y="150" width="790" height="145" rx="12" fill="#EEF1FA" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-status-field" x="872" y="150" width="348" height="145" rx="12" fill="#181C62" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-milestone-field" x="54" y="326" width="1166" height="304" rx="12" fill="#FFFFFF" stroke="#E6E6E6" stroke-width="2" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <line id="layout-timeline-line" x1="124" y1="540" x2="1150" y2="540" stroke="#C8C8C8" stroke-width="4" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <circle id="layout-checkpoint-1" cx="124" cy="540" r="11" fill="#181C62" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <circle id="layout-checkpoint-2" cx="329" cy="540" r="11" fill="#181C62" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <circle id="layout-checkpoint-3" cx="534" cy="540" r="14" fill="#D71440" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <circle id="layout-checkpoint-4" cx="739" cy="540" r="11" fill="#E6E6E6" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <circle id="layout-checkpoint-5" cx="944" cy="540" r="11" fill="#E6E6E6" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <circle id="layout-checkpoint-6" cx="1150" cy="540" r="11" fill="#E6E6E6" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-key-message-label" x="82" y="178" fill="#D71440" font-family="Arial" font-size="13" font-weight="bold" data-pptx-layer="layout" data-pptx-editable="false">WEEKLY TAKEAWAY</text>
+  <text id="layout-status-label" x="1046" y="178" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" data-pptx-layer="layout" data-pptx-editable="false">PROJECT STATUS</text>
+  <text id="layout-milestone-label" x="84" y="358" fill="#181C62" font-family="Arial" font-size="14" font-weight="bold" data-pptx-layer="layout" data-pptx-editable="false">CURRENT MILESTONE · EVIDENCE · BLOCKER · NEXT CHECKPOINT</text>
+  <text id="layout-phase-1" x="124" y="578" fill="#5E6478" font-family="Arial" font-size="12" text-anchor="middle" data-pptx-layer="layout" data-pptx-editable="false">Kick-off</text>
+  <text id="layout-phase-2" x="329" y="578" fill="#5E6478" font-family="Arial" font-size="12" text-anchor="middle" data-pptx-layer="layout" data-pptx-editable="false">Data</text>
+  <text id="layout-phase-3" x="534" y="578" fill="#D71440" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" data-pptx-layer="layout" data-pptx-editable="false">Baselines</text>
+  <text id="layout-phase-4" x="739" y="578" fill="#5E6478" font-family="Arial" font-size="12" text-anchor="middle" data-pptx-layer="layout" data-pptx-editable="false">IP Module</text>
+  <text id="layout-phase-5" x="944" y="578" fill="#5E6478" font-family="Arial" font-size="12" text-anchor="middle" data-pptx-layer="layout" data-pptx-editable="false">Experiments</text>
+  <text id="layout-phase-6" x="1150" y="578" fill="#5E6478" font-family="Arial" font-size="12" text-anchor="middle" data-pptx-layer="layout" data-pptx-editable="false">Final Report</text>
+
+  <g id="snapshot-title-slot" data-pptx-placeholder="title" data-pptx-bounds="54 44 860 58">
+    <text data-pptx-carrier="true" x="54" y="86" fill="#20243A" font-family="Arial" font-size="34" font-weight="bold">Weekly Snapshot &amp; Milestone</text>
+  </g>
+  <g id="snapshot-key-message-slot" data-pptx-placeholder="body" data-pptx-idx="1" data-pptx-bounds="82 194 734 78">
+    <text data-pptx-carrier="true" x="82" y="224" fill="#181C62" font-family="Arial" font-size="24" font-weight="bold"><tspan x="82" dy="0">{{KEY_MESSAGE}}</tspan><tspan x="82" dy="28" fill="#5E6478" font-size="14" font-weight="normal">State the one result or decision the supervisor should remember.</tspan></text>
+  </g>
+  <g id="snapshot-status-slot" data-pptx-placeholder="object" data-pptx-idx="2" data-pptx-bounds="904 190 284 72">
+    <text data-pptx-carrier="true" x="1046" y="220" fill="#FFFFFF" font-family="Arial" font-size="25" font-weight="bold" text-anchor="middle"><tspan x="1046" dy="0">{{STATUS}}</tspan><tspan x="1046" dy="27" fill="#C8C8C8" font-size="13" font-weight="normal">ON TRACK · AT RISK · BLOCKED</tspan></text>
+  </g>
+  <g id="snapshot-milestone-slot" data-pptx-placeholder="body" data-pptx-idx="3" data-pptx-bounds="84 382 1106 112">
+    <text data-pptx-carrier="true" x="84" y="416" fill="#20243A" font-family="Arial" font-size="21"><tspan x="84" dy="0">{{MILESTONE}}</tspan><tspan x="84" dy="30" fill="#5E6478" font-size="15">Evidence completed: …   |   Current blocker: …   |   Next checkpoint: …</tspan></text>
+  </g>
+  <g id="snapshot-source-slot" data-pptx-placeholder="footer" data-pptx-idx="18" data-pptx-bounds="520 695 610 18">
+    <text data-pptx-carrier="true" x="520" y="710" fill="#FFFFFF" font-family="Arial" font-size="12" text-anchor="end">{{SOURCE}}</text>
+  </g>
+  <g id="snapshot-page-slot" data-pptx-placeholder="slide-number" data-pptx-idx="19" data-pptx-bounds="1190 695 42 18">
+    <text data-pptx-carrier="true" x="1210" y="710" fill="#FFFFFF" font-family="Arial" font-size="12" text-anchor="middle">{{PAGE_NUM}}</text>
+  </g>
+</svg>

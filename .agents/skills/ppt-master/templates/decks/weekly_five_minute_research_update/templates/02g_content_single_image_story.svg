@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
+  data-pptx-master="ntu-weekly-master" data-pptx-master-name="NTU Weekly Research"
+  data-pptx-layout="weekly-single-image-story" data-pptx-layout-name="Weekly Update — Single-Image Story">
+  <rect id="master-background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="master-identity-rail" x="0" y="0" width="18" height="720" fill="#D71440" data-pptx-layer="master" data-pptx-editable="false"/>
+  <image id="master-logo" href="../images/ntu_master_logo.png" x="1030" y="24" width="200" height="72" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="master-footer-band" x="18" y="690" width="1262" height="30" fill="#181C62" data-pptx-layer="master" data-pptx-editable="false"/>
+  <text id="master-footer-label" x="50" y="711" fill="#FFFFFF" font-family="Arial" font-size="13" data-pptx-layer="master" data-pptx-editable="false">EE6008 · HUMAN POSE ANALYTICS</text>
+
+  <rect id="layout-title-rule" x="54" y="105" width="160" height="5" fill="#D71440" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-single-image-frame" x="54" y="137" width="820" height="501" rx="10" fill="#FFFFFF" stroke="#C8C8C8" stroke-width="2" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-single-image-description" x="900" y="137" width="320" height="501" rx="10" fill="#EEF1FA" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-single-image-accent" x="900" y="137" width="320" height="12" fill="#D71440" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-single-image-label" x="926" y="184" fill="#181C62" font-family="Arial" font-size="13" font-weight="bold" data-pptx-layer="layout" data-pptx-editable="false">IMAGE DESCRIPTION</text>
+
+  <g id="single-image-title-slot" data-pptx-placeholder="title" data-pptx-bounds="54 44 860 58">
+    <text data-pptx-carrier="true" x="54" y="86" fill="#20243A" font-family="Arial" font-size="34" font-weight="bold">Single-Image Story</text>
+  </g>
+  <g id="single-image-picture-slot" data-pptx-placeholder="picture" data-pptx-idx="1" data-pptx-bounds="58 141 812 493">
+    <image data-pptx-carrier="true" href="../images/eee_building_exterior_full_bleed.jpg" x="58" y="141" width="812" height="493" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+  <g id="single-image-description-slot" data-pptx-placeholder="body" data-pptx-idx="2" data-pptx-bounds="926 208 268 378">
+    <text data-pptx-carrier="true" x="926" y="246" fill="#20243A" font-family="Arial" font-size="21"><tspan x="926" dy="0">{{IMAGE_DESCRIPTION}}</tspan><tspan x="926" dy="34" fill="#5E6478" font-size="15">What does the image show?</tspan><tspan x="926" dy="27" fill="#5E6478" font-size="15">Why is it relevant this week?</tspan><tspan x="926" dy="27" fill="#5E6478" font-size="15">What should the audience notice?</tspan><tspan x="926" dy="36" fill="#D71440" font-size="14" font-weight="bold">TIP</tspan><tspan x="926" dy="25" fill="#5E6478" font-size="14">Use one annotated result, system</tspan><tspan x="926" dy="22" fill="#5E6478" font-size="14">overview, qualitative example,</tspan><tspan x="926" dy="22" fill="#5E6478" font-size="14">or implementation photograph.</tspan></text>
+  </g>
+  <g id="single-image-source-slot" data-pptx-placeholder="footer" data-pptx-idx="18" data-pptx-bounds="520 695 610 18">
+    <text data-pptx-carrier="true" x="520" y="710" fill="#FFFFFF" font-family="Arial" font-size="12" text-anchor="end">{{SOURCE}}</text>
+  </g>
+  <g id="single-image-page-slot" data-pptx-placeholder="slide-number" data-pptx-idx="19" data-pptx-bounds="1190 695 42 18">
+    <text data-pptx-carrier="true" x="1210" y="710" fill="#FFFFFF" font-family="Arial" font-size="12" text-anchor="middle">{{PAGE_NUM}}</text>
+  </g>
+</svg>

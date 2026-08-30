@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
+  data-pptx-master="ntu-weekly-master" data-pptx-master-name="NTU Weekly Research"
+  data-pptx-layout="weekly-ending" data-pptx-layout-name="Weekly Update — Closing">
+  <rect id="master-background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="master-identity-rail" x="0" y="0" width="18" height="720" fill="#D71440" data-pptx-layer="master" data-pptx-editable="false"/>
+  <image id="master-logo" href="../images/ntu_master_logo.png" x="1030" y="24" width="200" height="72" data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="master-footer-band" x="18" y="690" width="1262" height="30" fill="#181C62" data-pptx-layer="master" data-pptx-editable="false"/>
+  <text id="master-footer-label" x="50" y="711" fill="#FFFFFF" font-family="Arial" font-size="13" data-pptx-layer="master" data-pptx-editable="false">EE6008 · HUMAN POSE ANALYTICS</text>
+
+  <image id="layout-ending-eee-background" href="../images/eee_building_exterior_full_bleed.jpg" x="18" y="0" width="1262" height="690" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-ending-white-overlay" x="18" y="0" width="1262" height="690" fill="#FFFFFF" opacity="0.72" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="layout-ending-logo-plate" x="1010" y="18" width="238" height="88" rx="6" fill="#FFFFFF" opacity="0.94" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <image id="layout-ending-logo" href="../images/ntu_master_logo.png" x="1028" y="26" width="202" height="72" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <text id="layout-ending-kicker" x="649" y="266" fill="#181C62" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" data-pptx-layer="layout" data-pptx-editable="false">EE6008 · HUMAN POSE ANALYTICS</text>
+  <rect id="layout-ending-red-rule" x="569" y="370" width="160" height="6" fill="#D71440" data-pptx-layer="layout" data-pptx-editable="false"/>
+
+  <g id="ending-title-slot" data-pptx-placeholder="title" data-pptx-bounds="199 280 900 96">
+    <text data-pptx-carrier="true" x="649" y="346" fill="#181C62" font-family="Arial" font-size="54" font-weight="bold" text-anchor="middle">Thank You</text>
+  </g>
+</svg>
