@@ -1,0 +1,17 @@
+id = "m1_dgcn_identity"
+description = "Evaluate identity-aware DGCN changes against the accepted M0 baseline."
+dependencies = ["m0_skeletonx_baseline"]
+seed = 20260831
+dataset_manifest = "data/derived/manifests/ntu120_xsub.json"
+command = []
+
+[acceptance]
+metrics_file = "metrics.json"
+required_artifacts = ["metrics.json", "environment.json", "confusion_matrix.png"]
+required_metrics = [
+  "top1",
+  "macro_f1",
+  "parameter_count",
+  "throughput",
+  "identity_swap_sensitivity",
+]

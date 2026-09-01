@@ -1,0 +1,20 @@
+id = "m0_skeletonx_baseline"
+description = "Reproduce the SkeletonX baseline under the NTU120 XSub protocol."
+dependencies = []
+seed = 20260831
+dataset_manifest = "data/derived/manifests/ntu120_xsub.json"
+
+# Populate this argv list only after the baseline entry point and environment
+# are confirmed. The harness never guesses or invokes a shell implicitly.
+command = []
+
+[acceptance]
+metrics_file = "metrics.json"
+required_artifacts = ["metrics.json", "environment.json", "confusion_matrix.png"]
+required_metrics = [
+  "top1",
+  "macro_f1",
+  "parameter_count",
+  "throughput",
+  "identity_swap_sensitivity",
+]

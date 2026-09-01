@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# IPPoseRep local data and generated run state
+data/raw/**
+!data/raw/
+!data/raw/README.md
+data/derived/**
+!data/derived/
+!data/derived/README.md

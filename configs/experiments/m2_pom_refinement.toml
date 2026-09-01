@@ -1,0 +1,17 @@
+id = "m2_pom_refinement"
+description = "Evaluate POM refinement after the accepted identity-aware DGCN stage."
+dependencies = ["m1_dgcn_identity"]
+seed = 20260831
+dataset_manifest = "data/derived/manifests/ntu120_xsub.json"
+command = []
+
+[acceptance]
+metrics_file = "metrics.json"
+required_artifacts = ["metrics.json", "environment.json", "confusion_matrix.png"]
+required_metrics = [
+  "top1",
+  "macro_f1",
+  "parameter_count",
+  "throughput",
+  "identity_swap_sensitivity",
+]
