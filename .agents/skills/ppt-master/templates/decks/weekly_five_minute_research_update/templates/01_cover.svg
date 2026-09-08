@@ -1,29 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
   data-pptx-master="ntu-weekly-master" data-pptx-master-name="NTU Weekly Research"
   data-pptx-layout="weekly-cover" data-pptx-layout-name="Weekly Update — Cover">
+  <defs>
+    <linearGradient id="cover-week3-gradient" x1="0" y1="0.5" x2="1" y2="0.5">
+      <stop offset="0" stop-color="#084391" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#5B7FAE" stop-opacity="0.56"/>
+      <stop offset="0.78" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#D71440" stop-opacity="0.58"/>
+    </linearGradient>
+    <linearGradient id="cover-week3-bottom-shade" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#181C62" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#181C62" stop-opacity="0.42"/>
+    </linearGradient>
+  </defs>
+
   <rect id="master-background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
   <rect id="master-identity-rail" x="0" y="0" width="18" height="720" fill="#D71440" data-pptx-layer="master" data-pptx-editable="false"/>
   <image id="master-logo" href="../images/ntu_master_logo.png" x="1030" y="24" width="200" height="72" data-pptx-layer="master" data-pptx-editable="false"/>
   <rect id="master-footer-band" x="18" y="690" width="1262" height="30" fill="#181C62" data-pptx-layer="master" data-pptx-editable="false"/>
-  <text id="master-footer-label" x="50" y="711" fill="#FFFFFF" font-family="Arial" font-size="13" data-pptx-layer="master" data-pptx-editable="false">EE6008 · HUMAN POSE ANALYTICS</text>
+  <text id="master-footer-label" x="50" y="711" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold" data-pptx-layer="master" data-pptx-editable="false">EE6008 · Instance-Preserving Pose Representation</text>
 
-  <rect id="layout-cover-red-block" x="58" y="126" width="12" height="410" fill="#D71440" data-pptx-layer="layout" data-pptx-editable="false"/>
-  <g id="cover-photo-module-slot" data-pptx-placeholder="object" data-pptx-idx="4" data-pptx-bounds="390 126 890 410" data-pptx-binding="proxy">
-    <image id="cover-photo-module-image" href="../images/the_hive_ntu_exterior_cover_wide.jpg" x="390" y="126" width="890" height="410" opacity="0.56"/>
-    <path id="cover-photo-module-blend" d="M 390 126 L 570 126 L 500 536 L 390 536 Z" fill="#FFFFFF" opacity="0.82"/>
-    <path id="cover-photo-module-accent" d="M 555 126 L 470 536" fill="none" stroke="#D71440" stroke-width="3" opacity="0.62"/>
+  <g id="cover-photo-module-slot" data-pptx-placeholder="object" data-pptx-idx="4" data-pptx-bounds="0 0 1280 720" data-pptx-binding="proxy">
+    <image id="cover-photo-module-image" href="../images/the_hive_week3_cover.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+    <rect id="cover-photo-module-gradient" x="0" y="0" width="1280" height="720" fill="url(#cover-week3-gradient)"/>
+    <rect id="cover-photo-module-bottom-shade" x="0" y="0" width="1280" height="720" fill="url(#cover-week3-bottom-shade)"/>
   </g>
 
-  <g id="cover-title-slot" data-pptx-placeholder="title" data-pptx-bounds="96 150 540 150">
-    <text data-pptx-carrier="true" x="96" y="204" fill="#181C62" font-family="Arial" font-size="42" font-weight="bold">Human Pose Analytics</text>
+  <rect id="cover-header-red-marker" x="75" y="58" width="7" height="46" fill="#D71440"/>
+  <text id="cover-course-label" x="94" y="76" fill="#10182F" font-family="Arial" font-size="16" font-weight="bold">EE6008</text>
+  <text id="cover-presentation-label" x="94" y="99" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="bold">WEEKLY PRESENTATION</text>
+  <image id="cover-slide-logo" href="../images/ntu_master_logo.png" x="1114" y="58" width="126" height="46"/>
+  <rect id="cover-title-rule" x="76" y="348" width="62" height="5" fill="#D71440"/>
+  <rect id="cover-week-badge" x="76" y="497" width="123" height="46" fill="#181C62"/>
+  <rect id="cover-group-badge" x="199" y="497" width="255" height="46" fill="#EEF1FA" opacity="0.96"/>
+
+  <g id="cover-title-slot" data-pptx-placeholder="title" data-pptx-bounds="75 214 650 104">
+    <text data-pptx-carrier="true" x="75" y="258" fill="#10182F" font-family="Arial" font-size="38" font-weight="bold"><tspan x="75" dy="0">Human Pose Analytics</tspan><tspan x="75" dy="42">Using Artificial Intelligence</tspan></text>
   </g>
-  <g id="cover-subtitle-slot" data-pptx-placeholder="subtitle" data-pptx-idx="1" data-pptx-bounds="96 318 540 92">
-    <text data-pptx-carrier="true" x="96" y="352" fill="#20243A" font-family="Arial" font-size="23">Weekly research update · {{SUBTITLE}}</text>
+  <g id="cover-subtitle-slot" data-pptx-placeholder="subtitle" data-pptx-idx="1" data-pptx-bounds="165 360 620 50">
+    <text data-pptx-carrier="true" x="165" y="390" fill="#FFFFFF" font-family="Arial" font-size="21" font-weight="bold">Instance-Preserving Pose Representation</text>
   </g>
-  <g id="cover-date-slot" data-pptx-placeholder="date" data-pptx-idx="2" data-pptx-bounds="96 438 250 44">
-    <text data-pptx-carrier="true" x="96" y="468" fill="#D71440" font-family="Arial" font-size="18" font-weight="bold">Week ending · {{DATE}}</text>
+  <g id="cover-week-slot" data-pptx-placeholder="object" data-pptx-idx="2" data-pptx-bounds="88 507 99 26">
+    <text data-pptx-carrier="true" x="137.5" y="528" fill="#FFFFFF" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle">WEEK {{WEEK_NUM}}</text>
   </g>
-  <g id="cover-author-slot" data-pptx-placeholder="body" data-pptx-idx="3" data-pptx-bounds="96 492 520 48">
-    <text data-pptx-carrier="true" x="96" y="523" fill="#5E6478" font-family="Arial" font-size="18">Presenter · {{AUTHOR}}</text>
+  <g id="cover-group-slot" data-pptx-placeholder="object" data-pptx-idx="3" data-pptx-bounds="218 507 218 30">
+    <text data-pptx-carrier="true" x="327" y="528" fill="#5E6478" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Group 14</text>
+  </g>
+  <g id="cover-date-slot" data-pptx-placeholder="date" data-pptx-idx="5" data-pptx-bounds="76 620 310 28">
+    <text data-pptx-carrier="true" x="76" y="640" fill="#FFFFFF" opacity="0.78" font-family="Arial" font-size="12">Week ending · {{DATE}}</text>
   </g>
 </svg>

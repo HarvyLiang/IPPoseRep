@@ -4,6 +4,7 @@
 
 - [`Schedule.md`](Schedule.md): project timeline and milestones.
 - [`implementation_plan_experiment_harness.md`](implementation_plan_experiment_harness.md): implementation scope and verification plan for the experiment harness.
+- [`experiment/CTRGCN_SkeletonX_Experiment_Design.md`](experiment/CTRGCN_SkeletonX_Experiment_Design.md): proposed interaction experiments, sample protocols, ablations, and evaluation criteria for CTR-GCN with SkeletonX.
 
 ## Data
 
